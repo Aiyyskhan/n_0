@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>FADEE74383AC4FC884D8F6C3FA9C3B36</ExecutionGuid>
+		<CrashGUID>UE4CC-Linux-3CD14C0B0D9B456B9A9C080E0D04C792_0001</CrashGUID>
+		<IsEnsure>true</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<ErrorMessage>Ensure condition failed: VendorId != EGpuVendorId::Unknown [File:/home/altan/??????????????????/UnrealEngine-release/Engine/Source/Runtime/VulkanRHI/Private/VulkanDevice.cpp] [Line: 182] Stack: 0x00007f54b2dc10a3 libUE4Editor-VulkanRHI.so!UnknownFunction(0x1180a2) 0x00007f54b2e4d106 libUE4Editor-VulkanRHI.so!UnknownFunction(0x1a4105) 0x00007f54b2e49433 libUE4Editor-VulkanRHI.so!UnknownFunction(0x1a0432) 0x00007f54b2e49048 libUE4Editor-VulkanRHI.so!UnknownFunction(0x1a0047) 0x00007f554f1e753d libUE4Editor-RHI.so!_Z7RHIInitb(+0xbc) 0x000000000027f363 UE4Editor!UnknownFunction(0x7f362) 0x000000000027628c UE4Editor!UnknownFunction(0x7628b) 0x00007f554beef056 libUE4Editor-UnixCommonStartup.so!_Z14CommonUnixMainiPPcPFiPKDsEPFvvE(+0x845) 0x00007f554bd110b3 libc.so.6!__libc_start_main(+0xf2) 0x000000000025f4f9 UE4Editor!UnknownFunction(0x5f4f8)</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>3428</ProcessId>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>true</IsSourceDistribution>
+		<GameName>UE4-t_1</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<Symbols>**UE4*Release-4.26-CL-0-Linux-Development</Symbols>
+		<PlatformName>Linux</PlatformName>
+		<PlatformNameIni>Linux</PlatformNameIni>
+		<EngineMode>Game</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.26.2-0+++UE4+Release-4.26</EngineVersion>
+		<CommandLine>CommandLineRemoved</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>ru_RU</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.26-CL-0</BuildVersion>
+		<IsUE4Release>false</IsUE4Release>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>/home/unity/Документы/UnrealEngine-release/Engine/Binaries/Linux/</BaseDir>
+		<RootDir>/home/unity/Документы/UnrealEngine-release/</RootDir>
+		<MachineId>635D18E4007240BCB16FBDAD33F8D8B7-000003E9</MachineId>
+		<LoginId>635d18e4007240bcb16fbdad33f8d8b7-000003e9</LoginId>
+		<EpicAccountId />
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>6</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>6</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>GenericGPUBrand</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>GenericOSVersionLabel</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor>GenericOSSubVersionLabel</Misc.OSVersionMinor>
+		<MemoryStats.TotalPhysical>8279793664</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>2147479552</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack>libUE4Editor-Core.so!_ZN22FUnixPlatformStackWalk21CaptureStackBackTraceEPyjPv(+0x22)
+libUE4Editor-Core.so!_ZN25FGenericPlatformStackWalk16StackWalkAndDumpEPcmiPv(+0x50)
+libUE4Editor-Core.so!_ZN17FUnixCrashContext17CaptureStackTraceEv(+0x44)
+libUE4Editor-Core.so!_Z12ReportEnsurePKDsi(+0x15d)
+libUE4Editor-Core.so!_ZN6FDebug12EnsureFailedEPKcS1_iPKDsi(+0x798)
+libUE4Editor-Core.so!_ZN6FDebug53OptionallyLogFormattedEnsureMessageReturningFalseImplEbPKcS1_iPKDsz(+0xbe)
+libUE4Editor-VulkanRHI.so!UnknownFunction(0x308e0d)
+libUE4Editor-VulkanRHI.so!UnknownFunction(0x1180a2)
+libUE4Editor-VulkanRHI.so!UnknownFunction(0x1a4105)
+libUE4Editor-VulkanRHI.so!UnknownFunction(0x1a0432)
+libUE4Editor-VulkanRHI.so!UnknownFunction(0x1a0047)
+libUE4Editor-RHI.so!_Z7RHIInitb(+0xbc)
+UE4Editor!UnknownFunction(0x7f362)
+UE4Editor!UnknownFunction(0x7628b)
+libUE4Editor-UnixCommonStartup.so!_Z14CommonUnixMainiPPcPFiPKDsEPFvvE(+0x845)
+libc.so.6!__libc_start_main(+0xf2)
+UE4Editor!UnknownFunction(0x5f4f8)
+</CallStack>
+		<PCallStack>libUE4Editor-Core 0x00007f55544de000 + ac6862 libUE4Editor-Core 0x00007f55544de000 + 5a893e libUE4Editor-Core 0x00007f55544de000 + ac0c53 libUE4Editor-Core 0x00007f55544de000 + add35e libUE4Editor-Core 0x00007f55544de000 + 781c79 libUE4Editor-Core 0x00007f55544de000 + 78261f libUE4Editor-VulkanRHI 0x00007f54b2ca9000 + 308e0e libUE4Editor-VulkanRHI 0x00007f54b2ca9000 + 1180a3 libUE4Editor-VulkanRHI 0x00007f54b2ca9000 + 1a4106 libUE4Editor-VulkanRHI 0x00007f54b2ca9000 + 1a0433 libUE4Editor-VulkanRHI 0x00007f54b2ca9000 + 1a0048 libUE4Editor-RHI 0x00007f554f174000 + 7353d UE4Editor 0x0000000000200000 + 7f363 UE4Editor 0x0000000000200000 + 7628c libUE4Editor-UnixCommonStartup 0x00007f554beeb000 + 4056 libc.so 0x00007f554bced000 + 240b3 UE4Editor 0x0000000000200000 + 5f4f9</PCallStack>
+		<PCallStackHash>200839E484A88FBA2F55E3E60692FB65206CCA83</PCallStackHash>
+		<TimeOfCrash>637876561705870000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Linux [GenericOSVersionLabel GenericOSSubVersionLabel 64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules />
+	</RuntimeProperties>
+	<PlatformProperties>
+		<CrashSignal>5</CrashSignal>
+		<CrashSignalName>Trace/breakpoint trap</CrashSignalName>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+	<EngineData />
+	<GameData />
+</FGenericCrashContext>

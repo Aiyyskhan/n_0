@@ -1,0 +1,36 @@
+Generating report for minidump
+
+Application version 4.26.2.0
+ ... built from changelist 0
+
+OS version Linux 5.4.0-109-generic (network name: altan-MS-7B33)
+Running 6 x86_64 processors (6 logical cores)
+Exception was "Ensure condition failed: VendorId != EGpuVendorId::Unknown [File:/home/altan/??????????????????/UnrealEngine-release/Engine/Source/Runtime/VulkanRHI/Private/VulkanDevice.cpp] [Line: 182]"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-Core.so!_ZN22FUnixPlatformStackWalk21CaptureStackBackTraceEPyjPv(+0x22)
+libUE4Editor-Core.so!_ZN25FGenericPlatformStackWalk16StackWalkAndDumpEPcmiPv(+0x50)
+libUE4Editor-Core.so!_ZN17FUnixCrashContext17CaptureStackTraceEv(+0x44)
+libUE4Editor-Core.so!_Z12ReportEnsurePKDsi(+0x15d)
+libUE4Editor-Core.so!_ZN6FDebug12EnsureFailedEPKcS1_iPKDsi(+0x798)
+libUE4Editor-Core.so!_ZN6FDebug53OptionallyLogFormattedEnsureMessageReturningFalseImplEbPKcS1_iPKDsz(+0xbe)
+libUE4Editor-VulkanRHI.so!UnknownFunction(0x308e0d)
+libUE4Editor-VulkanRHI.so!UnknownFunction(0x1180a2)
+libUE4Editor-VulkanRHI.so!UnknownFunction(0x1a4105)
+libUE4Editor-VulkanRHI.so!UnknownFunction(0x1a0432)
+libUE4Editor-VulkanRHI.so!UnknownFunction(0x1a0047)
+libUE4Editor-RHI.so!_Z7RHIInitb(+0xbc)
+UE4Editor!UnknownFunction(0x7f362)
+UE4Editor!UnknownFunction(0x7628b)
+libUE4Editor-UnixCommonStartup.so!_Z14CommonUnixMainiPPcPFiPKDsEPFvvE(+0x845)
+libc.so.6!__libc_start_main(+0xf2)
+UE4Editor!UnknownFunction(0x5f4f8)
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

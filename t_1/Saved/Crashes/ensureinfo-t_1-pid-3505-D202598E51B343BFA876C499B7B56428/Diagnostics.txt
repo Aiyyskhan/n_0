@@ -1,0 +1,54 @@
+Generating report for minidump
+
+Application version 4.26.2.0
+ ... built from changelist 0
+
+OS version Linux 5.4.0-109-generic (network name: altan-MS-7B33)
+Running 6 x86_64 processors (6 logical cores)
+Exception was "Ensure condition failed: false [File:/home/altan/??????????????????/UnrealEngine-release/Engine/Source/Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp] [Line: 2249]"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-Core.so!_ZN22FUnixPlatformStackWalk21CaptureStackBackTraceEPyjPv(+0x22)
+libUE4Editor-Core.so!_ZN25FGenericPlatformStackWalk16StackWalkAndDumpEPcmiPv(+0x50)
+libUE4Editor-Core.so!_ZN17FUnixCrashContext17CaptureStackTraceEv(+0x44)
+libUE4Editor-Core.so!_Z12ReportEnsurePKDsi(+0x15d)
+libUE4Editor-Core.so!_ZN6FDebug12EnsureFailedEPKcS1_iPKDsi(+0x798)
+libUE4Editor-Core.so!_ZN6FDebug53OptionallyLogFormattedEnsureMessageReturningFalseImplEbPKcS1_iPKDsz(+0xbe)
+libUE4Editor-CoreUObject.so!UnknownFunction(0x6e92c1)
+libUE4Editor-CoreUObject.so!UnknownFunction(0x678f32)
+libUE4Editor-CoreUObject.so!_Z20StaticAllocateObjectPK6UClassP7UObject5FName12EObjectFlags20EInternalObjectFlagsbPbP8UPackage(+0x2fe)
+libUE4Editor-CoreUObject.so!_Z30StaticConstructObject_InternalRK32FStaticConstructObjectParameters(+0x402)
+libUE4Editor-Engine.so!_ZN22USkeletalMeshComponent28InitializeAnimScriptInstanceEbb(+0x45a)
+libUE4Editor-Engine.so!_ZN22USkeletalMeshComponent8InitAnimEb(+0x4c3)
+libUE4Editor-UnrealEd.so!_ZN28FBlueprintCompileReinstancer29ReplaceInstancesOfClass_InnerER4TMapIP6UClassS2_20FDefaultSetAllocator27TDefaultMapHashableKeyFuncsIS2_S2_Lb0EEEP7UObjectP4TSetIS9_15DefaultKeyFuncsIS9_Lb0EES3_EbbbPKSD_b(+0x385c)
+libUE4Editor-UnrealEd.so!_ZN28FBlueprintCompileReinstancer28BatchReplaceInstancesOfClassER4TMapIP6UClassS2_20FDefaultSetAllocator27TDefaultMapHashableKeyFuncsIS2_S2_Lb0EEERK39FBatchReplaceInstancesOfClassParameters(+0x2c)
+libUE4Editor-Kismet.so!UnknownFunction(0x444aed)
+libUE4Editor-Kismet.so!UnknownFunction(0x43eea4)
+libUE4Editor-Kismet.so!_ZN28FBlueprintCompilationManager20CompileSynchronouslyERK17FBPCompileRequest(+0x43)
+libUE4Editor-UnrealEd.so!_ZN22FKismetEditorUtilities16CompileBlueprintEP10UBlueprint24EBlueprintCompileOptionsP19FCompilerResultsLog(+0x33)
+libUE4Editor-Kismet.so!_ZN16FBlueprintEditor7CompileEv(+0x403)
+libUE4Editor-Kismet.so!UnknownFunction(0x62553c)
+libUE4Editor-Slate.so!_ZNK14FUICommandList13ExecuteActionE10TSharedRefIK14FUICommandInfoL7ESPMode0EE(+0xc1)
+libUE4Editor-Slate.so!_ZN19SToolBarButtonBlock9OnClickedEv(+0x8d)
+libUE4Editor-Slate.so!UnknownFunction(0x3e0033)
+libUE4Editor-Slate.so!_ZN7SButton14ExecuteOnClickEv(+0x4b)
+libUE4Editor-Slate.so!_ZN7SButton15OnMouseButtonUpERK9FGeometryRK13FPointerEvent(+0x263)
+libUE4Editor-Slate.so!_ZN17FSlateApplication19RoutePointerUpEventERK11FWidgetPathRK13FPointerEvent(+0x1022)
+libUE4Editor-Slate.so!_ZN17FSlateApplication25ProcessMouseButtonUpEventERK13FPointerEvent(+0x465)
+libUE4Editor-Slate.so!_ZN17FSlateApplication9OnMouseUpEN13EMouseButtons4TypeE9FVector2D(+0x1eb)
+libUE4Editor-ApplicationCore.so!UnknownFunction(0xeea97)
+libUE4Editor-ApplicationCore.so!_ZN29FLinuxPlatformApplicationMisc12PumpMessagesEb(+0xa0)
+UE4Editor!UnknownFunction(0x6693d)
+UE4Editor!UnknownFunction(0x764f2)
+libUE4Editor-UnixCommonStartup.so!_Z14CommonUnixMainiPPcPFiPKDsEPFvvE(+0x845)
+libc.so.6!__libc_start_main(+0xf2)
+UE4Editor!UnknownFunction(0x5f4f8)
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
